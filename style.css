@@ -1,0 +1,124 @@
+/* body */
+body {
+  font-family: "IBM Plex Sans";
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+}
+
+/* main block */
+.form-container {
+  width: 375px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 20px powderblue;
+  overflow: hidden;
+}
+
+/* header block */
+.header {
+  background-color: rgb(3, 10, 33);
+  color: white;
+  height: 23vh;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.heading {
+  margin-top:53px;
+}
+
+.price {
+  padding-top: 10px;
+    position: relative;
+}
+
+/* form */
+.form-body {
+  color: black;
+  padding: 20px;
+}
+
+.form-group {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+
+}
+
+.form-input {
+  width: 90%;
+  height: 100%;
+  font-size: 30px;
+  border-radius: 6px;
+  border: 1px solid #dddddd;
+  display: block;
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  text-align: left; 
+}
+.form-input::placeholder{
+  font-size: 16px; 
+  text-align: left;
+
+}
+.form-input:invalid{
+  border-color: red;
+  background-size: 20px;
+}
+.form-input:invalid+p{
+  color: red;
+}
+span.amt {
+  text-decoration: line-through;
+  margin: 0px 14px;
+  font-size: 16px;
+}
+
+span.symbol {
+  color: red;
+  margin: 0px 5px;
+}
+
+/* submit */
+.whtstxt {
+  font-size:small;
+  color: gray;
+
+}
+
+.checkbox {
+  color: black;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: rgb(3, 10, 33);
+  line-height: 50px;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  height: 100%;
+  
+}
+
+.submit-btn:hover {
+  background-color: red;
+}
+
+/* footer block */
+.footer-txt {
+  font-size: x-small;
+  color: gray;
+  padding-left: 25px;
+
+}

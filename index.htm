@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>growthschool</title>
+
+    <!-- icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="form-container">
+        <!-- header class -->
+        <div class="header">
+            <center>
+                <img src="https://assets-global.website-files.com/624194472db3153002097068/624ace96c9f9ab0aed097ba6_GS%20Logo%20(5)%201.svg"
+                    height="40px" ,width="40px">
+            </center>
+            <div class="heading" style="font-style: normal;font-weight: 500;font-size: 16px;line-height: 22px;"> 
+                Mastermind for AI-Powered Business <br> Leadership</div>
+
+            <div class="price" style="font-weight: 500;font-size: 20px;line-height: 30px;">₹499.00
+                <span class="amt"><small>₹1,999.00 </small></span>
+            </div>
+        </div>
+
+
+        <!-- form body -->
+        <div class="form-body">
+            <form>
+                <!-- name -->
+                <div class="form-group" data-error="Please enter required information">
+                    <label for="fullname">Full Name<span class="symbol" margin="0px 10px">*</span></label><br>
+                    <input type="text" id="fullname" class="form-input" name="fullname" required
+                        placeholder="Your Name"><p>Please enter required information</p>
+                </div>
+                <!-- email -->
+                <div class="form-group">
+                    <label for="Email">Email Address<span class="symbol" margin="0px 10px">*</span> </label><br>
+                    <input type="email" id="Email" class="form-input" name="Email" required
+                        placeholder="example@example.com"><p>Please enter required information</p>
+                </div>
+                <!-- number -->
+                <div class="form-group">
+                    <label for="Mobile No.">Mobile Number<span class="symbol">*</span></label><br>
+                    <input type="tel" id="Mobile No" class="form-input" name="Mobile No" required
+                        placeholder="XXXXXXXXXX"><p>Please enter required information</p>
+                </div>
+                <!-- whtstext -->
+                <div class="whtstxt">You will get update on your <strong><i class="ri-whatsapp-fill"
+                            style="color: green;"></i>Whatsapp</strong></div>
+                <!-- checkbox -->
+                <div class="checkbox"><br>
+                    <input type="checkbox" id="gst" name="gst">
+                    <label for="gst">I have a GST number</label><br><br>
+                </div>
+
+                <!-- submit -->
+                <div class="form-body">
+                    <button type="submit" class="submit-btn">Next</button>
+                </div>
+            </form>
+            
+            <!-- terms footer text -->
+            <div class="footer-txt">
+                By proceeding you agree to <u>Terms</u>, <u>Privacy</u> & <u>Refund Policy</u>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
